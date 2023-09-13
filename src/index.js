@@ -20,6 +20,6 @@ app.use(indexRoutes);
 //usar los estilos
 app.use(express.static(join(__dirname, 'public')))
 
-app.listen(3000);
+app.listen(process.env.PORT || 3000);
 
-console.log("server in listening on port 3000");
+console.log("server listening to");
