@@ -6,3 +6,16 @@ body{
 h1{
     text-align: center;
 }
+
+main{
+    text-align: center;
+}
+
+p{
+    font-size: larger;
+    margin-top: 3rem;
+}
+
+img{
+    margin: 2rem;
+}
